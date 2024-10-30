@@ -9,9 +9,12 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <!-- <x-welcome /> -->
-                @livewire('posts.create-post')
+                @livewire('posts.create-post',[
+                    'title' => 'Create a new post',
+                    'user' => 1
+                    ])
 
-                
+        
 
             </div>
         </div>
