@@ -18,6 +18,9 @@ class Paises extends Component
     public $active;
 
     public $count;
+
+    public $open=true;
+
     public function save()
     {
         // agregar un nuevo pais al array
