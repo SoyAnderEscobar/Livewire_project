@@ -9,6 +9,9 @@ class Tag extends Model
 {
     use HasFactory;
 
+    protected $table = 'tags';
+    protected $primaryKey = 'tag_id';
+
     protected $fillable = ['name'];
 
     public function posts()
